@@ -1,0 +1,67 @@
+@media (max-width:1300px) {
+    .container {
+        max-width: 960;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    .nav__content--item {
+        column-gap: 34px;
+    }
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .header__content--item {
+        max-height: 244px;
+    }
+    .header__img:nth-child(1) {
+        width: 256px;
+    }
+    .header__img:nth-child(2) {
+        width: 449px;
+    }
+
+    .about__text {
+        max-width: 580px;
+    }
+    p.about__text {
+        max-width: 558px;
+    }
+
+    .programm__content--item {
+        max-width: 880px;
+    }
+    .programm__content--item.active:nth-child(1),
+    .programm__content--item.active:nth-child(4),
+    .programm__content--item.active:nth-child(3) {
+        height: 225px;
+    }
+    .programm__content--item.active:nth-child(2),
+    .programm__content--item.active:nth-child(6),
+    .programm__content--item.active:nth-child(7) {
+        height: 325px;
+    }
+    .programm__content--item.active:nth-child(5) {
+        height: 200px;
+    }
+    .programm__content--item.active:nth-child(8) {
+        height: 125px;
+    }
+
+    .events__content--item p {
+        max-width: 589px;
+    }
+
+    .comand__content {
+        column-gap: 40px;
+    }
+    .ourcomand__column {
+        row-gap: 50px;
+    }
+}
